@@ -4,12 +4,14 @@ import CrowdFunding.controller.AuthController;
 import javax.swing.*;
 import java.awt.*;
 
+//LoginView หน้าจอ UI สำหรับการเข้าสู่ระบบ (Login) ของผู้ใช้
 public class LoginView extends JPanel {
     public interface OnLogin { void success(); }
 
     private final AuthController auth;
     private final OnLogin onLogin;
 
+ // ช่องกรอกข้อมูล
     private final JTextField userField = new JTextField(16);
     private final JPasswordField passField = new JPasswordField(16);
 
@@ -49,3 +51,4 @@ public class LoginView extends JPanel {
         }
     }
 }
+
