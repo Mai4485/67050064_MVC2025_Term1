@@ -1,0 +1,9 @@
+project_id,name,target_amount,deadline,current_amount
+10000001,Robotics Camp,50000,2025-10-30,750
+10000002,Clean Water Initiative,100000,2025-12-15,0
+10000003,Indie Game Dev,75000,2025-11-20,350
+10000004,School Library Upgrade,60000,2025-12-31,0
+10000005,Community Garden,40000,2025-10-25,0
+10000006,STEM Workshop,55000,2025-11-30,450
+10000007,Recycling Station,30000,2025-12-05,1934
+10000008,Solar Classroom,120000,2025-12-28,3733
